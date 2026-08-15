@@ -645,6 +645,12 @@ h1, h2, h3, h4, h5,
     .site-section {
       padding: 4em 0; } }
 
+.site-section.app-section-tight {
+  padding-top: 0; }
+  @media (max-width: 991.98px) {
+    .site-section.app-section-tight {
+      padding-top: 0; } }
+
 .cta a span {
   border-color: #007bff;
   padding: 10px 20px; }
