@@ -152,6 +152,89 @@
 	}
 }
 
+.hero-actions {
+	.btn {
+		min-width: 150px;
+	}
+}
+
+.photography-note {
+	color: #666;
+}
+
+.photography-card,
+.instagram-shot,
+.contact-card {
+	background: $white;
+	border: 1px solid #e6e6e6;
+	border-radius: 12px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.06);
+}
+
+.photography-card,
+.contact-card {
+	padding: 1.5rem;
+}
+
+.photography-tag {
+	display: inline-block;
+	margin-bottom: 1rem;
+	color: $primary;
+	font-size: .75rem;
+	font-weight: 900;
+	letter-spacing: .08rem;
+	text-transform: uppercase;
+}
+
+.photography-card {
+	h3 {
+		font-size: 1.25rem;
+		margin-bottom: .75rem;
+	}
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.instagram-shot {
+	overflow: hidden;
+	transition: transform .2s ease, box-shadow .2s ease;
+	img {
+		width: 100%;
+		aspect-ratio: 1 / 1;
+		object-fit: cover;
+		display: block;
+	}
+	&:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 10px 30px rgba(0,0,0,.10);
+	}
+}
+
+.instagram-shot-body {
+	padding: 1rem 1.25rem 1.25rem;
+	h3 {
+		font-size: 1.1rem;
+		margin-bottom: .5rem;
+	}
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.contact-card {
+	h3 {
+		font-size: 1.1rem;
+		margin-bottom: .75rem;
+	}
+	p {
+		margin-bottom: 1rem;
+	}
+	a {
+		font-weight: 700;
+	}
+}
+
 .section-1 {
 	margin-top: 10rem;
 }
